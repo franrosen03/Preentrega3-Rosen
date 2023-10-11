@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aqua;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+#logo {
+  height: 10px;
+}
+
+#tittienda {
+  padding: 2vb;
+}
+
+.descri {
+  font-size: 2rem;
+}
+
+.descri:hover {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
