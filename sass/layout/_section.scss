@@ -1,0 +1,42 @@
+#noticias img {
+    width:100%;
+    padding:20px 5px 5px 5px;
+    
+}
+
+@media (min-width:768px){
+    
+   
+    #noticias{
+        grid-area: noticias;
+        display: grid;
+        grid-template-columns: 1 fr 1fr;
+        grid-template-rows: 3fr 1fr 3fr 1fr;
+        grid-template-areas: 
+        "noti1 noti2"
+        "desnot1 desnot2"
+        "noti3 noti4"
+        "desnot3 desnot4"
+        "noti5 noti6"
+        "desnot5 desnot6"
+        
+    }
+
+       
+
+
+}
+
+
+ #noti1{grid-area: noti1;}
+ #noti2{grid-area: noti2;}
+ #noti3{grid-area: noti3;}
+ #noti4{grid-area: noti4;}
+ #noti5{grid-area: noti5;}
+ #noti6{grid-area: noti6;}
+ #desnot1{grid-area: desnot1;}
+ #desnot2{grid-area: desnot2;}
+ #desnot3{grid-area: desnot3;}
+ #desnot4{grid-area: desnot4;}
+ #desnot5{grid-area: desnot5;}
+ #desnot6{grid-area: desnot6;}

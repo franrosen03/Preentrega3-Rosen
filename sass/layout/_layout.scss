@@ -10,5 +10,22 @@ img{
     height:300px;
 }
 
+#titnot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+
+#notdest {
+    background-color: red;
+    font-weight: bolder;
+    justify-self: center;
+    font-size:2rem ;
+    width: 100%;
+    justify-content: center;
+}
+.desnot{
+    font-size: 2rem;
+}
 
