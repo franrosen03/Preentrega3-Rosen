@@ -9,3 +9,55 @@
 .container{
     margin: 10px;
 }
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#icig{  
+    width: 100%;
+    background-color: lightgreen;
+padding: 20px; 
+grid-area: icig; }
+#icfacebook{
+    width: 100%;
+     background-color: lightgreen;
+     padding: 20px; 
+     grid-area: icfacebook; }
+#icyt{ width: 100%;
+    background-color: lightgreen;
+    padding: 20px;
+    grid-area: icyt;  }
+#ictiktok{ width: 100%;
+    background-color: lightgreen;
+    padding: 20px; 
+    grid-area: ictiktok; }
+#ictwitter{ width: 100%;
+    background-color: lightgreen;
+    padding: 20px;
+    grid-area:ictwitter ;  }
+#icfono{ width: 100%;
+    background-color: lightgreen;
+    padding: 20px;
+    grid-area: icfono;  }
+#ichorario{ width: 100%;
+    background-color: lightgreen;
+    padding: 20px;
+    grid-area:ichorario ;  }
+#icmapa{ width: 100%;
+    background-color: lightgreen;
+    padding: 20px;
+    grid-area:icmapa ;  }
+
+#mapa{grid-area: mapa; }
+#horario{grid-area:horario ; }
+#ig{grid-area: ig; }
+#facebook{grid-area:facebook ; }
+#twitter{grid-area:twitter ; }
+#tiktok{grid-area:tiktok ; }
+#fono{grid-area: fono ; }
+#yt{grid-area: yt; }
+

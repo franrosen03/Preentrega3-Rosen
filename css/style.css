@@ -33,6 +33,26 @@ img {
   width: 350px;
 }
 
+#contacto {
+  background-color: lightgray;
+}
+
+i {
+  font-size: 8rem;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.contcont {
+  background-color: lightgreen;
+  width: 100vw;
+  padding: 10px;
+}
+
 #logo {
   height: 10px;
 }
@@ -53,6 +73,101 @@ img {
   margin: 10px;
 }
 
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#icig {
+  width: 100%;
+  background-color: lightgreen;
+  padding: 20px;
+  grid-area: icig;
+}
+
+#icfacebook {
+  width: 100%;
+  background-color: lightgreen;
+  padding: 20px;
+  grid-area: icfacebook;
+}
+
+#icyt {
+  width: 100%;
+  background-color: lightgreen;
+  padding: 20px;
+  grid-area: icyt;
+}
+
+#ictiktok {
+  width: 100%;
+  background-color: lightgreen;
+  padding: 20px;
+  grid-area: ictiktok;
+}
+
+#ictwitter {
+  width: 100%;
+  background-color: lightgreen;
+  padding: 20px;
+  grid-area: ictwitter;
+}
+
+#icfono {
+  width: 100%;
+  background-color: lightgreen;
+  padding: 20px;
+  grid-area: icfono;
+}
+
+#ichorario {
+  width: 100%;
+  background-color: lightgreen;
+  padding: 20px;
+  grid-area: ichorario;
+}
+
+#icmapa {
+  width: 100%;
+  background-color: lightgreen;
+  padding: 20px;
+  grid-area: icmapa;
+}
+
+#mapa {
+  grid-area: mapa;
+}
+
+#horario {
+  grid-area: horario;
+}
+
+#ig {
+  grid-area: ig;
+}
+
+#facebook {
+  grid-area: facebook;
+}
+
+#twitter {
+  grid-area: twitter;
+}
+
+#tiktok {
+  grid-area: tiktok;
+}
+
+#fono {
+  grid-area: fono;
+}
+
+#yt {
+  grid-area: yt;
+}
+
 #noticias img {
   width: 100%;
   padding: 20px 5px 5px 5px;
@@ -64,7 +179,12 @@ img {
     display: grid;
     grid-template-columns: 1 fr 1fr;
     grid-template-rows: 3fr 1fr 3fr 1fr;
-    grid-template-areas: "noti1 noti2" "desnot1 desnot2" "noti3 noti4" "desnot3 desnot4" "noti5 noti6" "desnot5 desnot6";
+    grid-template-areas: "noti1 noti2" "desnot1 desnot2" "noti3 noti4" "desnot3 desnot4" "noti5 noti6" "desnot5 desnot6" #contact;
+    grid-template-areas-grid-area: contact;
+    grid-template-areas-display: grid;
+    grid-template-areas-grid-template-columns: 1fr 1fr;
+    grid-template-areas-grid-template-rows: 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+    grid-template-areas-grid-template-areas: "icmapa ichorario" "mapa horario " "icig icfacebook" "ig facebook" "ictwitter ictiktok" "twitter tiktok" "icfono icyt" "fono yt";
   }
 }
 #noti1 {

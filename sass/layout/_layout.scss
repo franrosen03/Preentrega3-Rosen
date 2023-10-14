@@ -17,6 +17,7 @@ img{
 
 }
 
+
 #notdest {
     background-color: red;
     font-weight: bolder;
@@ -31,4 +32,24 @@ img{
 
 .img-circle {
     width: 350px;
+}
+
+#contacto {
+    background-color: lightgray;
+}
+
+i{
+    font-size: 8rem;
+}
+
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.contcont{
+    background-color: lightgreen;
+    width: 100vw;
+    padding: 10px;
 }

@@ -19,13 +19,35 @@
         "desnot3 desnot4"
         "noti5 noti6"
         "desnot5 desnot6"
+
+        #contact{
+            grid-area: contact;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+            grid-template-areas: 
+            "icmapa ichorario"
+            "mapa horario "
+            "icig icfacebook"
+            "ig facebook"
+            "ictwitter ictiktok"
+            "twitter tiktok"
+            "icfono icyt"
+            "fono yt"
+
+
+
+
+
+        }
         
     }
+}
 
        
 
 
-}
+
 
 
  #noti1{grid-area: noti1;}
