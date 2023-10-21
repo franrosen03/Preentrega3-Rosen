@@ -18,38 +18,87 @@
         "noti3 noti4"
         "desnot3 desnot4"
         "noti5 noti6"
-        "desnot5 desnot6"
+        "desnot5 desnot6";
 
-        #contact{
-            grid-area: contact;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
-            grid-template-areas: 
-            "icmapa ichorario"
-            "mapa horario "
-            "icig icfacebook"
-            "ig facebook"
-            "ictwitter ictiktok"
-            "twitter tiktok"
-            "icfono icyt"
-            "fono yt"
-
-
-
-
-
-        }
+    
         
     }
 }
 
-       
+@media (min-width:768px){
+    #contact{
+        grid-area: a;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+        grid-template-areas: 
+        "icmapa ichorario"
+        "mapa horario "
+        "icig icfacebook"
+        "ig facebook"
+        "ictwitter ictiktok"
+        "twitter tiktok"
+        "icfono icyt"
+        "fono yt";
+    }
+    
+}
 
 
 
+#icig{  
+    width: 100%;
+    background-color: lightgreen;
+padding: 20px; 
+grid-area: icig; }
+#icfacebook{
+    width: 100%;
+     background-color: lightgreen;
+     padding: 20px; 
+     grid-area: icfacebook; }
+#icyt{ width: 100%;
+    background-color: lightgreen;
+    padding: 20px;
+    grid-area: icyt;  }
+#ictiktok{ width: 100%;
+    background-color: lightgreen;
+    padding: 20px; 
+    grid-area: ictiktok; }
+#ictwitter{ width: 100%;
+    background-color: lightgreen;
+    padding: 20px;
+    grid-area:ictwitter ;  }
+#icfono{ width: 100%;
+    background-color: lightgreen;
+    padding: 20px;
+    grid-area: icfono;  }
+#ichorario{ width: 100%;
+    background-color: lightgreen;
+    padding: 20px;
+    grid-area:ichorario ;  }
+#icmapa{ width: 100%;
+    background-color: lightgreen;
+    padding: 20px;
+    grid-area:icmapa ;  }
 
 
+
+#mapa{grid-area: mapa;
+    background-color: lightgreen}
+#horario{grid-area:horario;
+    background-color: lightgreen}
+#ig{grid-area: ig;
+    background-color: lightgreen}
+#facebook{grid-area:facebook;
+    background-color: lightgreen}
+#twitter{grid-area:twitter;
+    background-color: lightgreen}
+#tiktok{grid-area:tiktok;
+    background-color: lightgreen}
+#fono{grid-area: fono;
+    background-color: lightgreen}
+#yt{grid-area: yt;
+    background-color: lightgreen}
  #noti1{grid-area: noti1;}
  #noti2{grid-area: noti2;}
  #noti3{grid-area: noti3;}
