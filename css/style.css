@@ -373,7 +373,7 @@ li i {
   font-size: 12px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .footer-items {
     width: 100%;
   }
